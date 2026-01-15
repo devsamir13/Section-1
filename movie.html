@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies ticket Booking form</title>
+</head>
+<body>
+
+    <form>
+            <h1>Movies ticket Booking from</h1>
+
+            <label for="">Your Name</label>
+            <input type="text" minlength="3" required>
+
+            <br><br>
+            <label for="">Your Email</label>
+            <input type="email">
+
+            <br><br>
+            <label for="">Age</label>
+            <input type="number" min="18" required>
+
+            <br><br>
+
+             <label for="">Select Movies Type</label>
+             <select>
+                <option>Hollywood</option>
+                <option>Bollywood</option>
+                <option>Others</option>
+             </select>
+
+             <br><br>
+             <label for="">Select Your Movie</label>
+             <select>
+                <option>Avataar</option>
+                <option>Avenger Doomsday</option>
+                <option>Tommorow Wars</option>
+             </select>
+
+             <br><br>
+             <label>Select Screen Type</label>
+             <input type="text" list="language">
+             <datalist id="language">
+             <option>2D Hindi</option>
+             <option>2D English</option>
+             <option>3D English</option>
+             <option>IMAX 3D English</option>
+             <option>IMAX 3D Hindi</option>
+             </datalist>
+
+             <br><br>
+             <label for="">Select Movie Date and time</label>
+             <select>
+                <option>Today 11:00 am <b>Rs.80.75 + GST</b></option>
+                <option>Today 1:00 pm <b>Rs.120.75 + GST</b></option>
+                <option>Today 4:00 pm <b>Rs.180.75 + GST</b></option>
+                <option>Others</option>
+             </select>
+
+             <br><br>
+             <label for="">Payment Options</label>
+             <select>
+               <option>BHIM UPI</option>
+               <option>Google Pay</option>
+               <option>Phone Pay</option>
+               <option>credit card or debit card</option>
+               <option>Other options</option>
+             </select>
+
+             <br><br>
+
+             <button type="submit">Book Now</button>
+
+</body>
+</html>
