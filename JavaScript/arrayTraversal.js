@@ -4,3 +4,7 @@ for(let n of nums){
     console.log(n*2);
     
 }
+
+nums.forEach((a, i) => {
+    console.log(a, i);
+});
