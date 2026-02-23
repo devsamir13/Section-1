@@ -11,6 +11,7 @@ const calcAvg = function (m1, m2, m3) {
     return avg;
 }
 
+
 const avg = calcAvg(45, 67, 89)
 
 console.log(avg);
